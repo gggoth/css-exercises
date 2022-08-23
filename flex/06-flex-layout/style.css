@@ -5,10 +5,63 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  flex-direction: column;
+  
+  
 }
 
 img {
   width: 600px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(90, 89, 89);
+  font-weight: 400;
+}
+
+.header {
+  display: flex;
+}
+
+
+.right-links, .left-links {
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+}
+
+.left-links{
+  flex: 1;
+  justify-content: flex-start;
+}
+
+.right-links{
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container_footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  background-color: #eeeeee;
 }
 
 button {
